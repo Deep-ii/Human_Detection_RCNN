@@ -34,29 +34,25 @@ The model is trained on the **Human Detection Dataset** from Kaggle and demonstr
 
 
 Install dependencies:
-
 pip install -r requirements.txt
 
 ▶️ Usage
-
 Run the notebook:
-
 jupyter notebook NORTH_DINO.ipynb
 
 
 The notebook will:
-
 Download the dataset from Kaggle.
-
 Prepare annotations.
-
 Train Faster R-CNN on the dataset.
-
 Evaluate and visualize predictions.
 
 
 Set up Kaggle API key:
-
 Download your kaggle.json from Kaggle Account Settings
-.
 Place it in the project directory.
+
+📊 Results
+The model successfully detects humans in images.
+Uses transfer learning to achieve strong results with limited training data.
+Faster R-CNN provides bounding boxes around detected persons.
